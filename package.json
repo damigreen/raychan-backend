@@ -1,0 +1,29 @@
+{
+  "name": "raychan-backend",
+  "version": "1.0.0",
+  "description": "raychan herbal healcare api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "build:ui": "rm -rf build && cd ../raychan/ && yarn run build --prod && cp -r build ../raychan-backend/",
+    "deploy": "git push heroku master",
+    "deploy:full": "yarn run build:ui && git add . && git commit -m uibuild && yarn run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "damigreen"
+  },
+  "keywords": [
+    "raychan",
+    "api"
+  ],
+  "author": "damilola faseun",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4"
+  }
+}
