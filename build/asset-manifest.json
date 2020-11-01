@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.563da930.chunk.css",
-    "main.js": "/static/js/main.cd479d1a.chunk.js",
-    "main.js.map": "/static/js/main.cd479d1a.chunk.js.map",
+    "main.css": "/static/css/main.aac979eb.chunk.css",
+    "main.js": "/static/js/main.72806f38.chunk.js",
+    "main.js.map": "/static/js/main.72806f38.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2cb9d682.js",
     "runtime-main.js.map": "/static/js/runtime-main.2cb9d682.js.map",
-    "static/css/2.cf7a5267.chunk.css": "/static/css/2.cf7a5267.chunk.css",
-    "static/js/2.f538f518.chunk.js": "/static/js/2.f538f518.chunk.js",
-    "static/js/2.f538f518.chunk.js.map": "/static/js/2.f538f518.chunk.js.map",
+    "static/css/2.9b04c9f2.chunk.css": "/static/css/2.9b04c9f2.chunk.css",
+    "static/js/2.3b2bd529.chunk.js": "/static/js/2.3b2bd529.chunk.js",
+    "static/js/2.3b2bd529.chunk.js.map": "/static/js/2.3b2bd529.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b2d2cfc685641eb42422a9695a75ea0.js": "/precache-manifest.0b2d2cfc685641eb42422a9695a75ea0.js",
+    "precache-manifest.1f563cf53652276775c881243821239c.js": "/precache-manifest.1f563cf53652276775c881243821239c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.cf7a5267.chunk.css.map": "/static/css/2.cf7a5267.chunk.css.map",
-    "static/css/main.563da930.chunk.css.map": "/static/css/main.563da930.chunk.css.map",
-    "static/js/2.f538f518.chunk.js.LICENSE.txt": "/static/js/2.f538f518.chunk.js.LICENSE.txt",
+    "static/css/2.9b04c9f2.chunk.css.map": "/static/css/2.9b04c9f2.chunk.css.map",
+    "static/css/main.aac979eb.chunk.css.map": "/static/css/main.aac979eb.chunk.css.map",
+    "static/js/2.3b2bd529.chunk.js.LICENSE.txt": "/static/js/2.3b2bd529.chunk.js.LICENSE.txt",
     "static/media/CureImage.png": "/static/media/CureImage.f334515e.png",
-    "static/media/Hero.scss": "/static/media/Hero.0a293323.png",
-    "static/media/App.scss": "/static/media/OpenSans-SemiboldItalic-webfont.91e49709.svg",
+    "static/media/Hero.png": "/static/media/Hero.e9067c33.png",
+    "static/media/media-queries.scss": "/static/media/OpenSans-SemiboldItalic-webfont.91e49709.svg",
     "static/media/asd.png": "/static/media/asd.9e9ad9ec.png",
     "static/media/asd.jpg": "/static/media/asd.af9e943a.jpg",
     "static/media/asthma.jpg": "/static/media/asthma.045ccda8.jpg",
@@ -37,9 +37,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2cb9d682.js",
-    "static/css/2.cf7a5267.chunk.css",
-    "static/js/2.f538f518.chunk.js",
-    "static/css/main.563da930.chunk.css",
-    "static/js/main.cd479d1a.chunk.js"
+    "static/css/2.9b04c9f2.chunk.css",
+    "static/js/2.3b2bd529.chunk.js",
+    "static/css/main.aac979eb.chunk.css",
+    "static/js/main.72806f38.chunk.js"
   ]
 }
