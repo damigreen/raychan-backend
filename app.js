@@ -5,6 +5,8 @@ const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const config = require('./utils/config')
+const productsRouter = require('./controllers/productRouter');
+// const { default: productsRouter } = require('./controllers/productRouter');
 
 const url = config.MONGODB_URI;
 
@@ -14,5 +16,6 @@ mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.use(bodyParser.json());
 app.use(express.static('build'));
+app.use('/sickle-cell', productsRouter)
 
 module.exports = app;

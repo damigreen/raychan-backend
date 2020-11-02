@@ -1,7 +1,9 @@
 const productsRouter = require('express').Router();
 
 
-// productsRouter.get('/sickle-cell', (req, res) => {
+productsRouter.get('/', (req, res) => {
 
-//   res.send('Sickle-cell');
-// });
+  res.send('Sickle-cell');
+});
+
+module.exports = productsRouter;
