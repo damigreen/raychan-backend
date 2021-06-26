@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "build:ui": "rm -rf build && cd ../raychan/ && yarn run build --prod && cp -r build ../raychan-backend/",
+    "build:ui": "rm -rf build && cd ../raychan-frontend/ && yarn run build --prod && cp -r build ../raychan-backend/",
     "deploy": "git push heroku master",
     "deploy:full": "yarn run build:ui && git add . && git commit -m uibuild && yarn run deploy"
   },
